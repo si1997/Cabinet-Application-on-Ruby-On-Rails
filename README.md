@@ -18,7 +18,6 @@ CONTAINS,
   
  To Start The Server,
  - $ rails server
-  or
  - $ rails s
  
  To get into your created directory,
