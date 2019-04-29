@@ -1,0 +1,20 @@
+.wrapper_with_padding
+	#docs.clearfix
+		-	unless @docs.blank?
+			-	@docs.each do |doc|
+				%a{ href: (url_for [doc])}
+					.doc
+						%p.title= doc.title
+						%p.date= time_ago_in_words(doc.created_at)
+						%p.content= truncate(doc.content, length:50)
+
+		-	else
+			%h2 Created Doc!
+			%p  Start creating documents and organizing your life!!
+			%button= link_to "Create Doc", new_doc_path
+
+
+
+-# this is point to take to the doc itself
+-# give the timestamp
+-# small snippet of the text in the from the body

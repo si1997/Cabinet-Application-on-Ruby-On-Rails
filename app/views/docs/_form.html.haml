@@ -1,0 +1,5 @@
+<!-- partials are created because we want the content inside it to render somewhere else -->
+= simple_form_for @doc do |f|
+	= f.input :title
+	= f.input :content
+	= f.button :submit, class: "button" 

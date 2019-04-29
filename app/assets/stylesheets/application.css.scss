@@ -1,0 +1,14 @@
+/*
+
+ *= require_self
+ */
+@import 'normalize';
+/* this will get from internet copy,paste
+and can also create a file, in stylesheets
+and save it as normailze.css.scss
+(this resets browser for us,becoz if the users are using multiple
+ browsers to intreact with our app it might mess up the styling instruction of the app
+ so this resets it and takes care of that )*/
+ @import "global.css.scss";
+ @import "docs.css.scss";
+ @import "welcome.css.scss"
