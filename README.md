@@ -22,7 +22,7 @@ CONTAINS,
  
  To get into your created directory,
  - $ cd foldername
-  example:
+ - example:
             $ cd cabinet
             
   To install the Gemfiles,
